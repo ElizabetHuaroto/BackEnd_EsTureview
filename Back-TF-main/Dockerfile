@@ -1,5 +1,5 @@
-FROM  openjdk:11
-VOLUME [ "/tmp"]
+FROM openjdk:11
+VOLUME [ "/tmp" ]
 EXPOSE 8080
-ADD ./target
-ENTRYPOINT ["java", "jar", "/backend.jar"]
+ADD ./target/backend.jar backend-aws.jar
+ENTRYPOINT ["java", "-jar", "/backend-aws.jar"]

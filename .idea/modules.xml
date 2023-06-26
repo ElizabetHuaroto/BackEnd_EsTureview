@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Back-TF-main.iml" filepath="$PROJECT_DIR$/.idea/Back-TF-main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Back-TF-main/EstuReview.iml" filepath="$PROJECT_DIR$/Back-TF-main/EstuReview.iml" />
     </modules>
   </component>
 </project>
